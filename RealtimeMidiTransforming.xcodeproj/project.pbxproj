@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3206AB00223F579700F562CD /* RealtimeMidiTransforming.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206AAFE223F579700F562CD /* RealtimeMidiTransforming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3206AB11223F584700F562CD /* SequencePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB0B223F584600F562CD /* SequencePlayer.swift */; };
+		3206AB12223F584700F562CD /* ControlsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB0C223F584600F562CD /* ControlsModel.swift */; };
+		3206AB13223F584700F562CD /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB0D223F584600F562CD /* ControlsViewController.swift */; };
+		3206AB14223F584700F562CD /* RawMidiParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB0E223F584700F562CD /* RawMidiParsing.swift */; };
+		3206AB15223F584700F562CD /* MidiSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB0F223F584700F562CD /* MidiSlider.swift */; };
+		3206AB18223F58E500F562CD /* RealtimeMidiTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206AB17223F58E500F562CD /* RealtimeMidiTransformer.swift */; };
+		324D73C5223FBA4F00F7FC79 /* MappingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D73C4223FBA4F00F7FC79 /* MappingSettings.swift */; };
+		32768616223FE2C0001E3667 /* ActiveValueQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32768615223FE2C0001E3667 /* ActiveValueQueues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3206AAFB223F579700F562CD /* RealtimeMidiTransforming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealtimeMidiTransforming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3206AAFE223F579700F562CD /* RealtimeMidiTransforming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealtimeMidiTransforming.h; sourceTree = "<group>"; };
 		3206AAFF223F579700F562CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3206AB0B223F584600F562CD /* SequencePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequencePlayer.swift; sourceTree = "<group>"; };
+		3206AB0C223F584600F562CD /* ControlsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsModel.swift; sourceTree = "<group>"; };
+		3206AB0D223F584600F562CD /* ControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
+		3206AB0E223F584700F562CD /* RawMidiParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawMidiParsing.swift; sourceTree = "<group>"; };
+		3206AB0F223F584700F562CD /* MidiSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiSlider.swift; sourceTree = "<group>"; };
+		3206AB17223F58E500F562CD /* RealtimeMidiTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeMidiTransformer.swift; sourceTree = "<group>"; };
+		324D73C4223FBA4F00F7FC79 /* MappingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingSettings.swift; sourceTree = "<group>"; };
+		32768615223FE2C0001E3667 /* ActiveValueQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveValueQueues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,14 @@
 		3206AAFD223F579700F562CD /* RealtimeMidiTransforming */ = {
 			isa = PBXGroup;
 			children = (
+				3206AB17223F58E500F562CD /* RealtimeMidiTransformer.swift */,
+				3206AB0C223F584600F562CD /* ControlsModel.swift */,
+				324D73C4223FBA4F00F7FC79 /* MappingSettings.swift */,
+				3206AB0D223F584600F562CD /* ControlsViewController.swift */,
+				3206AB0F223F584700F562CD /* MidiSlider.swift */,
+				32768615223FE2C0001E3667 /* ActiveValueQueues.swift */,
+				3206AB0E223F584700F562CD /* RawMidiParsing.swift */,
+				3206AB0B223F584600F562CD /* SequencePlayer.swift */,
 				3206AAFE223F579700F562CD /* RealtimeMidiTransforming.h */,
 				3206AAFF223F579700F562CD /* Info.plist */,
 			);
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					3206AAFA223F579700F562CD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -130,6 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3206AB14223F584700F562CD /* RawMidiParsing.swift in Sources */,
+				3206AB18223F58E500F562CD /* RealtimeMidiTransformer.swift in Sources */,
+				3206AB15223F584700F562CD /* MidiSlider.swift in Sources */,
+				32768616223FE2C0001E3667 /* ActiveValueQueues.swift in Sources */,
+				3206AB11223F584700F562CD /* SequencePlayer.swift in Sources */,
+				324D73C5223FBA4F00F7FC79 /* MappingSettings.swift in Sources */,
+				3206AB12223F584700F562CD /* ControlsModel.swift in Sources */,
+				3206AB13223F584700F562CD /* ControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +293,7 @@
 		3206AB04223F579700F562CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -279,6 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rationum.com.RealtimeMidiTransforming;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -286,6 +321,7 @@
 		3206AB05223F579700F562CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
